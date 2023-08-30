@@ -4,7 +4,7 @@ import './style.css';
 import Gallery from './Gallery';
 
 export default function App() {
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState('cars');
   const [data, setData] = useState([]);
   const changeHandler = (e) => {
     setSearch(e.target.value);
